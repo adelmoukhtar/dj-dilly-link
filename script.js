@@ -5,6 +5,7 @@ document.getElementById('saveContact').addEventListener('click', function () {
     'N:Dilly;DJ;;;',
     'FN:DJ Dilly',
     'TEL;TYPE=CELL:+966562355979',
+    'EMAIL:dillyrhythm@gmail.com',
     'item1.URL:https://instagram.com/dilly.rhytm',
     'item1.X-ABLabel:Instagram',
     'END:VCARD'

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /var/folders /tmp -maxdepth 6 -newer /tmp -iname \"*.png\" -mmin -10 2>/dev/null | head -20)",
+      "Bash(find /var/folders -newer /Users/adelalmoukhtar/Documents -iname \"*.png\" -mmin -15 2>/dev/null | head -20; find /private/var -newer /Users/adelalmoukhtar/Documents -iname \"*.jpg\" -mmin -15 2>/dev/null | head -20)",
+      "Read(//private/tmp/**)",
+      "Read(//Users/adelalmoukhtar/Downloads/**)",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(disown)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8080/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8080/style.css)",
+      "Bash(curl -sv http://127.0.0.1:8080/ -o /dev/null)",
+      "Bash(curl -s http://127.0.0.1:8080/style.css)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8080/style.css)"
+    ]
+  }
+}

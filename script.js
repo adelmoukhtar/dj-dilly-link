@@ -4,10 +4,9 @@ document.getElementById('saveContact').addEventListener('click', function () {
     'VERSION:3.0',
     'N:Dilly;DJ;;;',
     'FN:DJ Dilly',
-    'TEL;TYPE=CELL:+971562355979',
+    'TEL;TYPE=CELL:+966562355979',
     'item1.URL:https://instagram.com/dilly.rhytm',
     'item1.X-ABLabel:Instagram',
-    'NOTE:Open Format DJ — Bookings & Events',
     'END:VCARD'
   ].join('\n');
 
